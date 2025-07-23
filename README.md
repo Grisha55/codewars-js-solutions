@@ -1,8 +1,6 @@
 # 🏻 Codewars JavaScript Challenge Solutions
 
 ![Codewars Profile](https://www.codewars.com/users/Grisha55/badges/large)
-![Lines of Code](https://img.shields.io/tokei/lines/github/Grisha55/codewars-solutions)
-![Last Commit](https://img.shields.io/github/last-commit/Grisha55/codewars-solutions)
 
 > Коллекция моих решений задач с Codewars на JavaScript с тестами и анализами сложности
 
