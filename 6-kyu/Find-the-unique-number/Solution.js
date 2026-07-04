@@ -1,21 +1,21 @@
 /**
- * @function findUniq
- * @param {number[]} arr
+ * @function findUnique
+ * @param {number[]} numbers
  * @returns {number}
  */
 
-function findUniq(arr) {
-  let count = {};
+function findUnique(numbers) {
+    const count = {};
 
-  for (const num of arr) {
-    count[num] = (count[num] || 0) + 1;
-  }
-
-  for (const key in count) {
-    if (count[key] === 1) {
-      return Number(key);
+    for (const n of numbers) {
+        count[n] = (count[n] || 0) + 1;
     }
-  }
 
-  return -1;
+    for (const n in count) {
+        if (count[n] === 1) {
+            return +n;
+        }
+    }
+
+    return -1;
 }
